@@ -6,4 +6,6 @@ const eleventyNavigation = {
 ---
 # About
 
-I am a person that writes stuff.
+Just another grumpy dev blog.
+
+Email me at blog [at} colton.dev if you insist
