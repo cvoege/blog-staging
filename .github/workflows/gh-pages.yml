@@ -5,7 +5,7 @@ on:
     branches:
       - main
       - gh-pages-dev
-  pull_request:
+  # pull_request:
 
 jobs:
   deploy:
