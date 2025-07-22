@@ -6,6 +6,9 @@ const eleventyNavigation = {
 ---
 # About
 
-Just another grumpy dev blog.
+Principal Engineer @ Beacons
 
-Email me at blog [at} colton.dev if you insist
+[Github (kinda dead because I mostly use Gitlab for work)](https://github.com/cvoege/)
+[LinkedIn](https://www.linkedin.com/in/colton-voege-15a039b2)
+
+Email me at blog [at} colton.dev if you insist.
