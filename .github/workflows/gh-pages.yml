@@ -1,19 +1,20 @@
-# If you’d like to deploy this to GitHub pages, rename this
-# file to `gh-pages.yml` and read the mini-tutorial on
-# https://www.11ty.dev/docs/deployment/#deploy-an-eleventy-project-to-github-pages
 name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
       - main
+      - gh-pages
   pull_request:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # Grant GITHUB_TOKEN the permissions required to deploy to GitHub Pages
     permissions:
-      contents: write
+      contents: read
+      pages: write
+      id-token: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -38,12 +39,16 @@ jobs:
 
       - run: npm install
       - run: npm run build-ghpages
-      - name: Create .nojekyll
-        run: touch ./_site/.nojekyll
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          # Upload the _site directory
+          path: "./_site"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
