@@ -11,7 +11,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     concurrency:
@@ -22,7 +22,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: "22"
 
       - name: Cache npm
         uses: actions/cache@v3
@@ -30,12 +30,11 @@ jobs:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
 
-      - name: Cache Eleventy .cache
+      - name: Cache .cache
         uses: actions/cache@v3
         with:
           path: ./.cache
-          key: ${{ runner.os }}-eleventy-fetch-cache
-
+          key: ${{ runner.os }}-fetch-cache
 
       - run: npm install
       - run: npm run build-ghpages
