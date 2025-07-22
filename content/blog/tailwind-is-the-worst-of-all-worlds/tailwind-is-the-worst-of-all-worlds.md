@@ -157,11 +157,9 @@ There are some things that Tailwind simply can not do and in this case developer
 
 Do you see what I mean when I say the worst of all worlds?
 
-## So what's the best of all worlds?
-
-I like [vanilla-extract](https://vanilla-extract.style/). It's a fairly light type safe abstraction that gives you CSS in JS in just about the best way. It's not the best of all worlds but it's great at almost everything. I also don't mind writing apps with plain CSS, though this has problems as it can get hard to keep track of which styles are applying to what. I've also written decently sized apps purely using inline styles in React with some basic constants and it works pretty well, though that too has problems like the lack of media queries and increasing JS bundle size. My point here isn't to say that there is a best of all worlds. My point is to say that Tailwind is the worst of all worlds.
-
 ## Okay, so why does everyone use tailwind if it's the worst of all worlds?
+
+> There are only two kinds of languages: the ones people complain about and the ones nobody uses.
 
 I think the most important factor in Tailwind's success is that it does one thing very correctly: it demands the developer who installs it set up a config file that lays out all codebase-wide style constants: colors, margin sizes, fonts, border radii, etc. Writing individual styles that do not use a pre-configured constant from the config file is clunky in Tailwind. This is a good thing, an unironic win for Tailwind. More than anything else, this is what a large codebase with multiple frontend devs needs: a rigid set of global constants that everyone is strongly incentivized to use.
 
@@ -174,5 +172,9 @@ Most companies adopting Tailwind do so because it offers an out of the box solut
 Lastly, Tailwind has also been buoyed by being by being the default styling that just about any LLM or vibe coding tool will produce unless it is explicitly asked not to. This feels like both uncharted and charted territory. Plenty of developers started using jQuery because the first StackOverflow result in their search explained how to solve that problem with jQuery.
 
 But today we have a much larger set of decisions about codebase design being made all at once by a single tool. Developers who outsource these crucial decisions to LLMs are going to keep getting the worst of all worlds once the codebase becomes to unwieldy for vibes and needs actual developers.
+
+## So what's the best of all worlds?
+
+I like [vanilla-extract](https://vanilla-extract.style/). It's a fairly light type safe abstraction that gives you CSS in JS in just about the best way. It's not the best of all worlds but it's great at almost everything. I also don't mind writing apps with plain CSS, though this has problems as it can get hard to keep track of which styles are applying to what. I've also written decently sized apps purely using inline styles in React with some basic constants and it works pretty well, though that too has problems like the lack of media queries and increasing JS bundle size. My point here isn't to say that there is a best of all worlds. My point is to say that Tailwind is the worst of all worlds.
 
 {% endraw %}
