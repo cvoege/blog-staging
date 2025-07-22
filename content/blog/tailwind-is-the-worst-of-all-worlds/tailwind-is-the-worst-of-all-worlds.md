@@ -141,7 +141,7 @@ In this simple but common example, tailwind generates a larger CSS bundle *and* 
 
 CSS bundle size matters an order of magnitude less than JavaScript bundle size. On the React projects that Tailwind is typical on you will be writing your CSS in `className` attributes. That means hundreds of repeats the string `txt-warning` strewn about your JSX files. This is increasing your *Javascript* bundle size, halting your entire app while that larger file is downloaded, parsed, and run.
 
-# Developer Friendliness
+## Developer Friendliness
 
 Tailwind does nothing to reduce the mental load on your developers to understand, read, and write in your codebase. In fact it does the opposite. Your developers are not spared the hassle of learning CSS by instead learning tailwind's abstractions. Developers have to understand not just that `background-color` is the CSS key to set a background color, but they also must understand that classes prefixed with `bg-` mean background color. Every feature of CSS, such as media and container queries, will need to be learned twice, CSS style and Tailwind style.
 
