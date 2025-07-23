@@ -153,7 +153,7 @@ When Tailwind does a major version update, it will sometimes rework its class na
 
 One decent thing about Tailwind is the relative ease with which CSS's "stylesheet only" features can be accessed inline. For example you can set up a CSS rule that only applies to an element on large screens with the simple matter of prefixing that class with `lg:`. This is something that is annoying to do in raw CSS. However, every other CSS-in-JS tool I've used also offers a convenient way to do the same. More importantly, those solutions scale better. If you have five rules that should be different on large screens, you must write `lg:` five times and hover each one to make sure it's working. In a tool like [vanilla-extract](https://vanilla-extract.style/) you would define one type checked media query with all your type checked rules underneath.
 
-There are some things that Tailwind simply can not do and in this case developers simply fall back to plain CSS or inline styles with JavaScript. Meaning that, once again, the mental load of understanding the codebase is increased. You need to understand not only that you might be reading tailwind classes or plaain CSS classes and you'll need to track down where those are in your stylesheets when you do.
+There are some things that Tailwind simply can not do and in this case developers simply fall back to plain CSS or inline styles with JavaScript. Meaning that, once again, the mental load of understanding the codebase is increased. You need to understand not only that you might be reading tailwind classes or plain CSS classes and you'll need to track down where those are in your stylesheets when you do.
 
 Do you see what I mean when I say the worst of all worlds?
 
