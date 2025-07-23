@@ -2,14 +2,14 @@
 title: Curing Your AI 10x Engineer Imposter Syndrome
 # title: Reality Checking the AI 10x Engineer
 description: You are Kenough.
-date: 2025-07-22
+date: 2025-07-23
 tags: AI
 ---
 {% raw %}
 
 A few months ago I went through a bit of a mental slump. I've always been confident of my abilities as an engineer, but I couldn't help but feel like my skills were falling hopelessly behind as I scrolled places like LinkedIn and Twitter. If these sources were to be believed, engineering had moved on from my medieval practice of typing code into my editor. *Real* engineers were now 10-100x more productive than I was. This made me feel bad about myself, and I'm writing this article hoping to help others who are feeling similar anxieties.
 
-I'm a skeptical person so I don't usually fall over myself immediately when I hear a claim like that. I usually roll my eyes in the same way I do when someone tells me a simple herbal remedy cures all disaese. But the sheer volume these 10x engineer claims are reaching right now started to hit a nerve. What if I'm *wrong*? What if all these people telling me that if I don't start using AI right now I'll miss the bus and be unemployable are right? After all, there were a lot of fancy words going around that distanced the "AI" these people were talking about with the "AI" I was familiar with.
+I'm a skeptical person so I don't usually fall over myself immediately when I hear a claim like that. I usually roll my eyes in the same way I do when someone tells me a simple herbal remedy cures all disease. But the sheer volume these 10x engineer claims are reaching right now started to hit a nerve. What if I'm *wrong*? What if all these people telling me that if I don't start using AI right now I'll miss the bus and be unemployable are right? After all, there were a lot of fancy words going around that distanced the "AI" these people were talking about with the "AI" I was familiar with.
 
 These people weren't simply using ChatGPT, they were using *✨agentic✨* AI. They were using *✨thinking✨* models that used the internet, ran tests, and corrected their own mistakes. Sure I popped into ChatGPT here and there and asked it to write some code, then promptly discarded most of the output once I got the idea that I needed. But these engineers were letting Claude fully take the wheel and had agents ripping 5 PRs for them while they made morning coffee. Was I becoming a dinosaur, an old man yelling at cloud?
 
