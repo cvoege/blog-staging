@@ -2,7 +2,7 @@
 title: Curing Your AI 10x Engineer Imposter Syndrome
 # title: Reality Checking the AI 10x Engineer
 description: You are Kenough.
-date: 2025-07-23
+date: 2025-07-31
 tags: AI
 ---
 {% raw %}
