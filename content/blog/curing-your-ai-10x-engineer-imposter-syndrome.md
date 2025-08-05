@@ -57,6 +57,14 @@ I think sometimes people lose the scale of just how big a 10x improvement is. 10
 
 100x productivity means you now do what used to be one year of work in two days. I shouldn't even need to touch the ludicrousness of numbers at that scale.
 
+## Do 10x Engineers Exist?
+
+This debate isn't something I want to weigh in on but I might have to. My answer is sometimes, kinda. When I have had engineers who were 10x as valuable as others it was primarily due to their ability to *prevent unnecessary work*. Talking a PM down from a task that was never feasible. Getting another engineer to not build that unnecessary microservice. Making developer experience investments that save everyone just a bit of time on every task. Documenting your work so that every future engineer can jump in faster. These things can add up over time to one engineer saving 10x the time company wide than what they took to build it.
+
+Work of this nature is not always available, so great engineers will only find themselves being 10x as productive in certain situations. At a certain point every engineer just needs to build features, which a great engineer might do twice as fast as a junior engineer, but they'll still hit the same bottlenecks as before. Flawed as story points are, I've never seen an engineer actually complete ten times as many as an average engineer consistently.
+
+Notably, AI coding assistants do very little to prevent unnecessary work. On the contrary, AI often seems to encourage hastiness and over-building. When I ask architectural questions, it often recommends something that I realize is not necessary after a good night's sleep or a talk with a great engineer. All other things held the same, is a faster coder a better engineer? Yes, but it's not the 10x difference maker and it's hard to hold everything else constant. The more you focus on pumping out tasks as fast as possible the easier is to miss the important time savers that reduce total work.
+
 ## So are the AI-posters lying or what?
 
 I think the AI-posters are a mix of the following, in order of least to most malevolent:
@@ -69,7 +77,7 @@ I think the AI-posters are a mix of the following, in order of least to most mal
 
 In my experience, AI delivers rare, short bursts of 10-100x productivity. When I have AI write me a custom ESLint rule in a few minutes, which would have taken hours of documentation surfing and tutorials otherwise, that's a genuine order of magnitude time and effort improvement. Moments like this do happen with AI. Many career non-coders have felt the magic in the first few days after spinning an app up with Lovable.
 
-The problem is that burst of 10x productivity does not scale. I don't write more than one ESLint rule per year. This burst of productivity was enabled solely by the fact that I didn't care about this code and wasn't going to work to make it readable for the next engineer. If constantly writing ESLint rules became a core job requirement I'd sink the one-time cost to learn how ESLint internals work. After that, there simply wouldn't be a big difference in the time it takes to vibe code a rule vs. write it myself, especially when you add in the extra time to make my code human readable for when I come back to this file in 6 months.
+The problem is that productivity does not scale. I don't write more than one ESLint rule per year. This burst of productivity was enabled solely by the fact that I didn't care about this code and wasn't going to work to make it readable for the next engineer. If constantly writing ESLint rules became a core job requirement I'd sink the one-time cost to learn how ESLint internals work. After that, there simply wouldn't be a big difference in the time it takes to vibe code a rule vs. write it myself, especially when you add in the extra time to make my code human readable for when I come back to this file in 6 months.
 
 Eventually every vibe coder reaches the point where the returns start heavily diminishing. Their [site gets hacked](https://pivot-to-ai.com/2025/03/18/guys-im-under-attack-ai-vibe-coding-in-the-wild/) and they need to actually sink the time to learn how security works. The app gets too big for context windows and things start looking and functioning inconsistently. Real frontend engineers who know what they are doing are hired to implement a consistent design system and UX.
 
