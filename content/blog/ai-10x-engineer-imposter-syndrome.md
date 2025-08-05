@@ -2,7 +2,7 @@
 title: No, AI is not Making Engineers 10x as Productive
 # title: Reality Checking the AI 10x Engineer
 description: Curing Your AI 10x Engineer Imposter Syndrome
-date: 2025-08-04
+date: 2025-08-05
 tags: AI
 ---
 {% raw %}
