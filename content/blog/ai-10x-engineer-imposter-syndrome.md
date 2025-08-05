@@ -1,13 +1,14 @@
 ---
 title: No, AI is not Making Engineers 10x as Productive
 # title: Reality Checking the AI 10x Engineer
+subtitle: Curing Your AI 10x Engineer Imposter Syndrome
 description: Curing Your AI 10x Engineer Imposter Syndrome
 date: 2025-08-05
 tags: AI
 ---
 {% raw %}
 
-A few months ago I went through a bit of a mental slump. I've always been confident of my abilities as an engineer, but I couldn't help but feel like my skills were falling hopelessly behind as I scrolled places like LinkedIn and Twitter. If these sources were to be believed, engineering had moved on from the medieval practice of typing code into an editor. *Real* engineers were now 10-100x more productive than I was. This made me feel bad about myself, and I'm writing this article hoping to help others who are feeling similar anxieties.
+A few months ago I went through a bit of a mental slump. I've always been confident of my abilities as an engineer, but I couldn't help but feel like my skills were falling hopelessly behind as I scrolled places like LinkedIn and Twitter. If these sources were to be believed, engineering had moved on from the medieval practice of typing code into an editor. *Real* engineers were now 10-100x more productive than I was. I'm writing this hoping to help others who are feeling similar anxieties.
 
 I'm a skeptical person so I don't usually fall over myself immediately when I hear a claim like that. I usually roll my eyes in the same way I do when someone tells me a simple herbal remedy cures all disease. But the sheer volume these 10x engineer claims are reaching right now started to hit a nerve. What if I'm *wrong*? Will I miss the bus and become unemployable if I don't learn to use AI right now? After all, there are a lot of fancy words going around that distance the "AI" these people are talking about with the "AI" I was familiar with.
 

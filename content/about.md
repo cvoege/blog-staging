@@ -12,4 +12,4 @@ Principal Engineer @ Beacons
 
 [Github (kinda dead because I mostly use Gitlab for work)](https://github.com/cvoege/)
 
-Email me at blog [at} colton.dev if you insist.
+Email me at blog [at] colton.dev if you insist.

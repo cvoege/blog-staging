@@ -305,3 +305,10 @@ header {
 .post-metadata time {
 	margin-right: 1em;
 }
+
+.subtitle {
+	font-size: 1.1em;
+	font-weight: 400;
+	margin-top: -1em;
+	font-style: italic;
+}
