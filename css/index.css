@@ -145,7 +145,7 @@ header {
 	border-radius: 2px;
 }
 
-/* Prevent visually-hidden skip link fom pushing content around when focused */
+/* Prevent visually-hidden skip link from pushing content around when focused */
 #skip-link.visually-hidden:focus {
 	position: absolute;
 	top: 1rem;
