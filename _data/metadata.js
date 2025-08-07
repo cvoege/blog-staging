@@ -5,7 +5,7 @@ export default {
 	description: "Just another grumpy dev blog.",
 	author: {
 		name: "Colton Voege",
-		email: "blog [at} colton.dev",
+		email: "blog [at] colton.dev",
 		url: "https://colton.dev",
 	},
 };
