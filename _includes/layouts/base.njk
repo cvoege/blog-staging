@@ -76,13 +76,13 @@
 		  onsubmit="window.open('https://buttondown.com/coltonvoege', 'popupwindow')"
 		  class="embeddable-buttondown-form"
 		>
-		  <label for="bd-email">Enter your email</label>
-		  <input type="email" name="email" id="bd-email" />
-
-		  <input type="submit" value="Subscribe" />
-		  <p>
-		    <a href="https://buttondown.com/refer/coltonvoege" target="_blank">Powered by Buttondown.</a>
-		  </p>
+		  <div class="subscribe-label-container">
+				<label class="subscribe-label" for="bd-email">Want to get my posts via email? Subscribe here!</label>
+			</div>
+			<div class="subscribe-email-container">
+			  <input class="subscribe-email" placeholder="something@email.com" type="email" name="email" id="bd-email" />
+			  <input class="subscribe-submit" type="submit" value="Subscribe" />
+			</div>
 		</form>
 		<footer>
 			<p>© 2025 Colton Voege. All rights reserved.</p>
