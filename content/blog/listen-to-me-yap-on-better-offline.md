@@ -12,4 +12,8 @@ My [last post](https://colton.dev/blog/curing-your-ai-10x-engineer-imposter-synd
 
 Ed Zitron (host of [Better Offline](https://www.betteroffline.com/) and writer for [Where's Your Ed At](https://www.wheresyoured.at/)) invited me onto Better Offline to talk more about what AI is and isn't in coding. Pop over there to hear me yap more!
 
+On [Spotify](https://open.spotify.com/episode/1jS1cDADdC0bdiubN9sA3B?si=510a68982aff487c)
+
+On [Apple Podcasts](https://podcasts.apple.com/us/podcast/ai-isnt-making-engineers-10x-as-productive-with-colton/id1730587238?i=1000727446652)
+
 {% endraw %}
