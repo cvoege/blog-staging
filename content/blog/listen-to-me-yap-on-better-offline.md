@@ -3,7 +3,7 @@ title: Listen to Me Yap about AI on Better Offline w/ Ed Zitron!
 # title: Reality Checking the AI 10x Engineer
 subtitle: Unfortunately, I have the face for radio, but not the voice.
 description: Unfortunately, I have the face for radio, but not the voice.
-date: 2025-08-05
+date: 2025-09-20
 tags: AI
 ---
 {% raw %}
