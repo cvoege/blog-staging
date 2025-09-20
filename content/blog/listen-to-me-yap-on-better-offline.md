@@ -8,7 +8,7 @@ tags: AI
 ---
 {% raw %}
 
-My [last post](https://colton.dev/blog/curing-your-ai-10x-engineer-imposter-syndrome/) went more viral than I could have expected! I got a lot of emails from peopel saying how much they appreciated my thoughts on the subject. I hope I made some people feel like they were not falling behind.
+My [last post](https://colton.dev/blog/curing-your-ai-10x-engineer-imposter-syndrome/) went more viral than I could have expected! I got a lot of emails from people saying how much they appreciated my thoughts on the subject. I hope I made some people feel like they were not falling behind.
 
 Ed Zitron (host of [Better Offline](https://www.betteroffline.com/) and writer for [Where's Your Ed At](https://www.wheresyoured.at/)) invited me onto Better Offline to talk more about what AI is and isn't in coding. Pop over there to hear me yap more!
 
