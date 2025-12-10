@@ -6,7 +6,7 @@ const eleventyNavigation = {
 ---
 # About
 
-Principal Engineer @ [Beacons](https://beacons.ai/)
+Engineer @ [Defakto](https://www.defakto.security/)
 
 [LinkedIn](https://www.linkedin.com/in/colton-voege-15a039b2)
 
